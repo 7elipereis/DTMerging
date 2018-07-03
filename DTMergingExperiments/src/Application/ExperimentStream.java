@@ -12,7 +12,7 @@ import weka.classifiers.trees.J48;
 
 public class ExperimentStream extends Experiment {
 	
-	public int maxRotation = 2*16*90;
+	public int maxRotation = 2*2*16*90;
 	public int anglerotation = 90;
 	public int driftshift = 5;
 	public int driftpercentage = 25;
